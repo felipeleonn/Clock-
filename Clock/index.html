@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="border">
+        <div class="box">
+          <div class="time">
+            <p class="minutes" id="minutes">14</p>
+            <p class="colon">:</p>
+            <p class="seconds" id="seconds">14</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicators">
+        <p class="now" id="trabajo">work</p>
+        <a href="./">
+          <p class="later" id="descanso">break</p>
+        </a>
+      </div>
+
+      <div>
+        <img
+          class="img-play"
+          onclick="start()"
+          id="start"
+          src="./img/play.png"
+          alt="play"
+        />
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
